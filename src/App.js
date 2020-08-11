@@ -1,9 +1,17 @@
 import React, { Component } from 'react';
 import './App.scss';
+import './main.css';
+import HeadImg from './component/HeadImg';
+import Main from './component/Main';
 
 class App extends Component {
   render() {
-    return <main className="app">start here</main>;
+    return (
+      <div className="main">
+        <HeadImg></HeadImg>
+        <Main></Main>
+      </div>
+    );
   }
 }
 
